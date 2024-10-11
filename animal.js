@@ -1,5 +1,5 @@
 class Animal {
-    constructor(name, age, species) {
+    constructor (name, age, species) {
         this.name = name
         this.age = age
         this.species = species
@@ -14,7 +14,7 @@ class Animal {
     }
 
     rename(newName) {
-        if (newName.includes("xxx")) return "Felaktigt namn"
+        if (newName.includes(`xxx`)) return `Felaktigt namn`
 
         this.name = newName
     }
